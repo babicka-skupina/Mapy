@@ -1,0 +1,11 @@
+encoding  utf-8
+survey 1313 -title "1313 Babická jeskyně"
+  
+  input premereni_2010/00index.th
+  
+  map 1313.m -title "Babická jeskyně"
+    premereni_2010.m@premereni_2010
+  endmap
+
+endsurvey
+

@@ -1,0 +1,24 @@
+encoding  utf-8
+source "1313_II.th"
+select 1313_II.m@1313_II
+
+input ../../../layouts
+
+layout l_plan
+  copy l_default
+  map-header 110 100 nw
+  legend-width 20 cm
+  legend-columns 2
+  doc-author "ZO ČSS 6-28 Babická speleologická skupina"
+  doc-keywords "Babická jeskyně, Skalky, Babická plošina, Moravský kras"
+  doc-subject "Plán Babické jeskyně"
+  doc-title "Babická jeskyně"  
+  symbol-hide point label
+endlayout
+
+# Mapa
+export map -projection plan -output _output/1313_II_plan.pdf -layout l_plan
+
+# 3D
+export model -output _output/1313_II.lox
+export model -output _output/1313_II.3d -format survex

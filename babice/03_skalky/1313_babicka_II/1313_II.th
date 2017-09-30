@@ -1,0 +1,11 @@
+encoding  utf-8
+survey 1313_II -title "1313 Babická jeskyně - spodní vchod"
+  
+  input premereni_2010/00index.th
+  
+  map 1313_II.m -title "Babická jeskyně - spodní vchod"
+    premereni_2010_II.m@premereni_2010_II
+  endmap
+
+endsurvey
+

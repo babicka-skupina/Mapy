@@ -1,0 +1,50 @@
+encoding  iso8859-2
+survey premereni_2010 -title "Babická jeskynì - pøemìøení 2010"
+ 
+  input 20100523.th
+  input 20100903.th
+  
+  input 20100523.th2
+  input 20100903_1.th2
+  input 20100903_2.th2
+  input 20100903_3.th2
+  input 20100903_4.th2
+  
+  centerline
+    equate 2.2@20100523 2.2@20100903_1
+    equate 1.16@20100903_2 1.16@20100523
+    equate 1.13@20100903_3 1.13@20100523
+    equate 1.7@20100903_4 1.7@20100523
+  endcenterline  
+
+  join vstupni_domek_cukrova.s odbocka_2.s
+  join vstupni_domek_cukrova.s odbocka_3.s
+      
+  map premereni_2010.m -title "Babická jeskynì - pøemìøení 2010"
+      komin.s
+      break
+      
+      odbocka_4_2.s
+      break
+      odbocka_4_1.s
+      break
+      odbocka_4.s
+      break
+      vstupni_domek_cukrova.s
+      odbocka_2.s
+      break
+      odbocka_2_1.s
+      break
+      odbocka_3.s
+      break
+      
+      za_kominem.s
+      break
+      za_kominem_2.s
+      break
+      
+      odbocka_1.s
+  endmap
+   
+ endsurvey
+

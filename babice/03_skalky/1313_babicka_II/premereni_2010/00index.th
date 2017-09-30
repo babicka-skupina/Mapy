@@ -1,0 +1,13 @@
+encoding  iso8859-2
+survey premereni_2010_II -title "Babická jeskynì - spodní vchod - pøemìøení 2010"
+ 
+  input 20100904_spodni_vchod.th
+  
+  input 20100904_spodni_vchod.th2
+  
+  map premereni_2010_II.m -title "Babická jeskynì - spodní vchod - pøemìøení 2010"
+      spodni_vchod.s
+  endmap
+   
+ endsurvey
+
