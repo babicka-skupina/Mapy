@@ -1,0 +1,32 @@
+encoding  utf-8
+survey svestkovy_komin \
+  -title "Sifon III, Švestková komín"
+  
+  centerline
+  
+    explo-team "ZO/ČSS 6-28 Babická speleologická skupina"
+    explo-date 2008
+    
+    team "Ladislav Blažek"
+    team "Martin Suchomel"
+    date 2009.03.22
+    
+    data normal from to compass clino length
+    
+       
+       0    1 307   -60     2.51
+       1    2 0      90     9.6
+       2    3 139    50     1.8 
+       3    4 230    12     1.2 
+       4    5 252    72     6.6 
+       5    6 195    65     4.4 
+       
+       # odbocka ze dna Svestkove prop. - orientacne       
+       
+       0    7 217   -48     1.26
+       7    8 116   -43     8.4 
+      
+  endcenterline
+
+endsurvey
+

@@ -1,0 +1,31 @@
+encoding  utf-8
+survey babicka_plosina -title "Babická plošina"
+  
+  #input povrchova_mereni/gps.th
+  input povrchova_mereni/totalka.th
+  input 01_zadni_pole/zadni_pole.th
+  input 02_clopy_a_okoli/1302_ve_clopech/1302.th
+
+  centerline
+  
+    # ZB Zadní pole
+    #equate ZP_ZB@gps 0@povrch2.zadni_pole
+    equate 7@totalka 0@povrch2.zadni_pole
+    
+    # Člopy
+    equate 14@totalka 0@hp.1302
+    #equate 1302@gps 0@hp.1302
+      
+  endcenterline
+  
+  map babicka_plosina.m -title "Babická plošina a okolí"  
+    zadni_pole.m@zadni_pole
+    1302.m@1302    
+  endmap
+  
+  map totalka.m -title "Povrchové body" -projection plan  
+    totalka    
+  endmap
+  
+endsurvey
+

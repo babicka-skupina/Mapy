@@ -1,0 +1,171 @@
+therion 5.2
+initialization file: D:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.1.12
+ 2> Copyright (C) 1990-2007 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 14 survey stations, joined by 13 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs =   34.52m (  34.52m adjusted)
+ 8> Total plan length of survey legs =   17.44m
+ 9> Total vertical length of survey legs =   25.47m
+10> Vertical range = 19.47m (from 1 at 0.00m to 10 at -19.47m)
+11> North-South range = 5.97m (from 2 at 0.00m to 14 at -5.97m)
+12> East-West range = 9.26m (from 10 at 9.26m to 2 at 0.00m)
+13>    3 1-nodes.
+14>   10 2-nodes.
+15>    1 3-node.
+16> 
+######################### transcription ########################
+ 3> 1 : 0@hp.1319
+ 5> 14 : 4@odb_01.1319 -- 13 : 3@odb_01.1319
+10> 1 : 0@hp.1319 -- 10 : 9@hp.1319
+11> 2 : 1@hp.1319 -- 14 : 4@odb_01.1319
+12> 10 : 9@hp.1319 -- 2 : 1@hp.1319
+13> 3 : 2@hp.1319
+14> 10 : 9@hp.1319
+15> 1 : 0@hp.1319
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection extended ... done
+average distortion: 1.81%
+writing _output/1319_rez.pdf ...
+####################### metapost log file ########################
+This is MetaPost, Version 0.641 (Web2c 7.5.2) (mem=mpost 2004.3.2)  27 AUG 2008 15:33
+**data.mp
+(data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007]
+[Warning: undefined symbol `p_station_fixed_MY']
+[Warning: undefined symbol `p_station_natural_MY']
+[Warning: undefined symbol `p_station_painted_MY'] [1] [2] [3] [4] [5]
+(mptextmp.mp) [6] [7] [8] [9] [10] [11] [12] [13] [14] ) 
+Here is how much of MetaPost's memory you used:
+ 844 strings out of 31350
+ 11196 string characters out of 476397
+ 34043 words of memory out of 1017783
+ 1182 symbolic tokens out of 9500
+ 8i,66n,16p,194b stack positions out of 300i,300n,150p,200000b
+ 0 string compactions (moved 0 characters, 0 strings)
+
+21 output files written: data.1 .. data.4007
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592-1.40.1 (Web2C 7.5.6) (format=pdftex 2007.1.8)  27 AUG 2008 15:33
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex)
+(./th_fontdef.tex{d:/PROGRA~1/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 62 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 238 strings out of 97159
+ 2294 string characters out of 1208382
+ 34325 words of memory out of 1524551
+ 1447 multiletter control sequences out of 10000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 14 hyphenation exceptions out of 1000
+ 11i,5n,8p,802b,64s stack positions out of 5000i,500n,6000p,200000b,50000s
+<d:/PROGRA~1/Therion/texmf/fonts/type1/cmss10.pfb><d:/PROGRA~1/Therion/tex
+mf/fonts/type1/cmssi10.pfb><d:/PROGRA~1/Therion/texmf/fonts/type1/csss10.pfb><d
+:/PROGRA~1/Therion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 45016 bytes).
+PDF statistics:
+ 64 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection plan ... done
+average distortion: 0.83%
+writing _output/1319_plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, Version 0.641 (Web2c 7.5.2) (mem=mpost 2004.3.2)  27 AUG 2008 15:33
+**data.mp
+(data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007]
+[Warning: undefined symbol `p_station_fixed_MY']
+[Warning: undefined symbol `p_station_natural_MY']
+[Warning: undefined symbol `p_station_painted_MY'] [1] [2] [3] [4] [5] [6]
+[7] [8] (mptextmp.mp) [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
+[20] [21] ) 
+Here is how much of MetaPost's memory you used:
+ 843 strings out of 31350
+ 11160 string characters out of 476397
+ 35359 words of memory out of 1019099
+ 1181 symbolic tokens out of 9500
+ 8i,66n,16p,194b stack positions out of 300i,300n,150p,200000b
+ 0 string compactions (moved 0 characters, 0 strings)
+
+28 output files written: data.1 .. data.4007
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592-1.40.1 (Web2C 7.5.6) (format=pdftex 2007.1.8)  27 AUG 2008 15:33
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex)
+(./th_fontdef.tex{d:/PROGRA~1/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 70 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 246 strings out of 97159
+ 2365 string characters out of 1208382
+ 30407 words of memory out of 1520633
+ 1455 multiletter control sequences out of 10000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 14 hyphenation exceptions out of 1000
+ 11i,5n,8p,528b,58s stack positions out of 5000i,500n,6000p,200000b,50000s
+<d:/PROGRA~1/Therion/texmf/fonts/type1/cmss10.pfb><d:/PROGRA~1/Therion/tex
+mf/fonts/type1/cmssi10.pfb><d:/PROGRA~1/Therion/texmf/fonts/type1/csss10.pfb><d
+:/PROGRA~1/Therion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 53433 bytes).
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing _output/1319.3d ... done
+writing _output/1319.lox ... [p1_1] [p1_2] done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.86%   19.77%  p1_2@1319
+   0.00%    0.00%  p1_1@1319
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   1.81%    8.29%  r1_1@1319
+################### end of scrap distortions ###################

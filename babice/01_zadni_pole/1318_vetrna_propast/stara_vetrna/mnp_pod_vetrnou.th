@@ -1,0 +1,27 @@
+encoding  utf-8
+survey mnp_pod_vetrnou \
+  -title "Malá Novohradská prop. - odbočka pod Větrnou prop."
+
+  centerline
+  
+    explo-team "ZO/ČSS 6-28 Babická speleologická skupina"
+    explo-date 1997
+    
+    team "Ladislav Blažek"
+    team "Zdenek Stloukal"
+    date 1998
+    
+    instrument length "Ocelové pásmo"
+    instrument compass "Závěsný hornický kompas"
+    instrument clino "Závěsný sklonoměr"
+    
+    data normal from to length compass clino
+    
+    extend left
+       1    2   2.9  255    24  
+       2    3   1.7  256     6  
+       3    4   5.3  272    -4  
+
+  endcenterline
+
+endsurvey

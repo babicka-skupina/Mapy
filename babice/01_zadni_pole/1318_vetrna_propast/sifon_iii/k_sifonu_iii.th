@@ -1,0 +1,32 @@
+encoding  utf-8
+survey k_sifonu_iii \
+  -title "Ze dna Staré Větrné k Sifonu III"
+
+  centerline
+  
+    explo-team "ZO/ČSS 6-28 Babická speleologická skupina"
+    explo-date 2000
+    
+    team "Ladislav Blažek"
+    team "Jan Morávek"
+    team "Petr Vodák"
+    date 2003
+    
+    data normal from to length compass clino
+
+    extend left    
+       0    1   2.2  185     7  
+    extend right
+       1    2   7.2   46   -14  
+       2    3   2.2   66    40  
+       3    4   6    325   -65  
+       4    5   3     80   -65  
+       5    6   3.3   14   -10  
+    flags duplicate   
+       6    7   3     54    25  
+       7    8   6.5    0   -90  
+
+  endcenterline
+
+endsurvey
+

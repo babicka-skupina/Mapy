@@ -1,0 +1,13 @@
+encoding  utf-8
+survey 1302 -title "1302 Ve Člopech"
+  
+  input data/hp.th
+  
+  input data/clopy01.th2
+
+  map 1302.m -title "1302 Ve Člopech" -projection plan    
+    clopy01    
+  endmap
+     
+endsurvey
+

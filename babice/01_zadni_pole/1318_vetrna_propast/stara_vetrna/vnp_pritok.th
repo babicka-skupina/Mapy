@@ -1,0 +1,28 @@
+encoding  utf-8
+survey vnp_pritok \
+  -title "Velká Novohradská prop. - přítok do Zvonu"
+
+  centerline
+  
+    explo-team "ZO/ČSS 6-28 Babická speleologická skupina"
+    explo-date 1997
+    
+    team "Petr Vodák"
+    team "Zdenek Stloukal"
+    date 1998
+    
+    instrument length "Ocelové pásmo"
+    instrument compass "Závěsný hornický kompas"
+    instrument clino "Závěsný sklonoměr"
+    
+    data normal from to length compass clino
+
+       1    2   5.7   45   -40  
+       2    3   3.4  320    13  
+       3    4   1     60    -6  
+       4    5   1.8   22    18  
+       5    6   2.7   40     8  
+
+  endcenterline
+
+endsurvey

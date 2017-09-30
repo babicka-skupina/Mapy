@@ -1,0 +1,23 @@
+encoding  utf-8
+source babice.th
+
+input ../layouts
+
+cs iJTSK
+
+# Mapa
+#export map -projection plan \
+#-layout l_plan_obrysy \
+#-layout-scale 1 500 \
+#-layout-map-header 0 0 sw \
+#-output output/babice.pdf
+
+#export map -projection plan \
+#-format esri \
+#-layout l_plan_esri \
+#-layout-scale 1 100 \
+#-output _output/babice
+
+# 3D
+export model -format survex -output _output/babice.3d
+export model -output _output/babice.lox

@@ -1,0 +1,27 @@
+encoding  utf-8
+source skalky.th
+
+input ../../layouts
+
+layout l_plan
+  copy l_default
+  debug on
+  map-header 70 100 nw
+  legend-columns 2
+  legend-width 25 cm
+  doc-author "ZO ČSS 6-28 Babická speleologická skupina"
+  doc-keywords "Skalky, Babická plošina, Moravský kras"
+  doc-subject "Skalky"
+  doc-title "Skalky"  
+  symbol-hide point label
+endlayout
+
+# Mapa
+export map -projection plan -output _output/skalky_plan.pdf -layout l_default
+
+# ESRI
+export map -format esri -output _output/skalky.shp -layout l_plan_esri
+
+# 3D
+export model -format survex -output _output/skalky.3d
+export model -output _output/skalky.lox

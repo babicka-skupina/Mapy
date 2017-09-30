@@ -1,0 +1,12 @@
+encoding  iso8859-2
+survey skalky_povrch -title "Skalky - povrchová mìøení"
+ 
+  input krtova_sonda.th
+  input ke_spodnimu_vchodu_babicke.th  
+  
+  centerline
+    equate 1.8@krtova_sonda 1.10@ke_spodnimu_vchodu_babicke
+  endcenterline
+   
+endsurvey
+

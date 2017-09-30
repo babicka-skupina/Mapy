@@ -1,0 +1,12 @@
+encoding  utf-8
+source "1303_1974.th"
+select 1303_1974.m@1303_1974
+
+input ../../../layouts
+
+# Mapa
+export map -projection plan -output _output/1303_1974_plan.pdf -layout l_default
+
+# 3D
+export model -output _output/1303_1974.3d -format survex
+export model -output _output/1303_1974.lox -format loch

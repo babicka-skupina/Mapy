@@ -1,0 +1,23 @@
+encoding  utf-8
+survey skalky -title "Skalky"
+  
+  input povrchova_mereni/00index.th
+  
+  input 1313_babicka/1313.th
+  input 1313_babicka_II/1313_II.th
+  
+  centerline
+    # Babická j. - horní vchod
+    equate 1.1@20100523.premereni_2010.1313 1.12@krtova_sonda.skalky_povrch
+    # Babická j. - dolní vchod
+    equate 2.6@spodni_vchod.premereni_2010_II.1313_II 2.6@ke_spodnimu_vchodu_babicke.skalky_povrch
+  endcenterline
+  
+  map skalky.m -title "Skalky"
+    1313.m@1313
+    break
+    1313_II.m@1313_II
+  endmap
+
+endsurvey
+

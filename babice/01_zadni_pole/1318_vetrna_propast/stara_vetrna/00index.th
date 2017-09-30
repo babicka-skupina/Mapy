@@ -1,0 +1,59 @@
+encoding  iso8859-2
+survey stara_vetrna -title "VÏtrn· propast - star· Ë·st"
+ 
+  input hp.th
+  input mnp_pod_vetrnou.th
+  input mnp_pica.th
+  input mnp_tobogan.th
+  input vnp_pritok.th
+  
+  input vchod.th2
+  input mnp.th2
+  input zeleza_zvon.th2
+  input sintropad.th2
+   
+  centerline
+    equate 11@hp 1@mnp_pica
+    equate 11@hp 1@mnp_pod_vetrnou
+    equate 2@mnp_pica 1@mnp_tobogan
+    equate 14@hp 9@mnp_tobogan
+    equate 20@hp 1@vnp_pritok
+  endcenterline
+  
+  join mnp_01.s mnp_02.s
+  join mnp_01.s zeleza_zvon_01.s -count 2
+  join zeleza_zvon_01.s zeleza_zvon_02.s
+  join sintropad_01.s sintropad_02.s
+  
+  map stara_vetrna_1997.m -title "VÏtrn· propast - star· Ë·st (1997)"         
+      vchod_01.s
+      break
+      vchod_02.s
+      break
+      vchod_03.s
+      break
+      mnp_02.s
+      break
+      mnp_01.s
+      mnp_03.s
+      zeleza_zvon_01.s
+      zeleza_zvon_02.s
+      break
+      zeleza_zvon_03.s
+      break
+      sintropad_01.s
+      sintropad_02.s
+  endmap
+  
+  map stara_vetrna_1997_polygon.m -title "VÏtrn· propast - star· Ë·st - polygon (1997)" \
+    -projection plan        
+      vnp_pritok    
+  endmap
+  
+  map stara_vetrna.m -title "VÏtrn· propast - star· Ë·st"    
+      stara_vetrna_1997.m
+      stara_vetrna_1997_polygon.m   
+  endmap
+ 
+endsurvey
+

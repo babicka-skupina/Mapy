@@ -1,0 +1,41 @@
+encoding  utf-8
+survey za_sifonem_i \
+  -title "Sifon I, Nedělní chodba, Bílá tma"
+
+  centerline
+  
+    explo-team "ZO/ČSS 6-28 Babická speleologická skupina"
+    explo-date 2003
+    
+    team "Ladislav Blažek"
+    team "Jan Morávek"
+    team "Petr Vodák"
+    date 2003
+    
+    instrument length "Ocelové pásmo"
+    instrument compass "Suunto KB-14"
+    instrument clino "Suunto PM-5"
+    
+    data normal from to length compass clino
+    
+    extend left   
+       0    1   1.7  164   -65  
+       1    2   8.7  230   -30  
+       2    3   0.5    0    90  
+       3    4  10.2  220    28  
+       4    5   5.2  237    -5  
+       5    6   8.3  220     2  
+       6    7   9.8  235   -12  
+       7    8   3.2  315    -2  
+       8    9  10.3  240   -54  
+       9   10   5.6  295   -44  
+      10   11   7.2  231   -46  
+      11   12   3.5  235   -35  
+      12   13   2.9  177   -50  
+      13   14   3    230   -45  
+      14   15   3    120     0  
+      15   16   2.5   70   -45  
+
+  endcenterline
+
+endsurvey

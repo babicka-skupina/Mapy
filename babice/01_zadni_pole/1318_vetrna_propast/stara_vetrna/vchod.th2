@@ -1,0 +1,474 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -98.0 864.0 1333.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {0.0 1 1.0} {1200.0 {}} vchod.gif 0 {}
+
+
+
+scrap vchod_01.s -projection plan -author 2004 "Ladislav Blažek" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 543.0 345.0 station -name 0@hp -name 1@hp
+
+point 409.0 251.0 station -name 2@hp
+
+point 523.5 371.0 entrance -orientation 141.8
+
+line wall
+  504.0 351.0
+  525.0 411.5 602.94 371.18 576.0 323.0
+  smooth off
+endline
+
+line wall
+  504.0 351.0
+  501.0 325.0 481.0 305.0 481.0 305.0
+  smooth off
+  463.0 275.0
+  463.0 275.0 448.0 264.0 441.0 257.0
+  smooth off
+endline
+
+line ceiling-step -reverse on
+  504.0 351.0
+  504.0 351.0 498.5 299.0 550.0 305.0
+  smooth off
+endline
+
+line wall
+  576.0 323.0
+  576.0 323.0 561.18 308.05 550.0 305.0
+  539.0 302.0 517.0 288.0 506.0 271.0
+  495.0 254.0 475.0 264.0 466.0 250.0
+  457.0 236.0 457.5 235.0 453.0 229.5
+  smooth off
+endline
+
+line overhang -reverse on
+  452.0 264.5
+  452.0 264.5 464.5 265.0 466.0 250.0
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap vchod_02.s -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 670.5 277.0 label -text "Větrná propast"
+
+point 664.0 1200.0 label -text "Malá Novohradská<br>propast"
+
+point 104.5 1093.0 label -text "Klaustrofobie III"
+
+point 643.5 772.5 label -text "Klaustrofobie I"
+
+point 334.0 774.5 label -text "Klaustrofobie II"
+
+point 273.0 224.0 label -text "Čtyřicítka"
+
+line wall
+  365.0 277.0
+  365.0 277.0 331.0 241.0 349.0 206.0
+  smooth off
+  349.0 206.0 337.0 191.4 312.0 161.0
+  smooth off
+endline
+
+line rock-border -close on
+  314.5 158.0
+  324.0 158.5
+  325.0 152.0
+  322.0 148.0
+  309.5 147.0
+  309.5 152.0
+  314.5 158.0
+endline
+
+line rock-border -close on
+  385.5 276.0
+  381.5 273.0
+  382.5 267.0
+  388.5 268.0
+  385.5 276.0
+endline
+
+line rock-border -close on
+  380.0 278.5
+  375.5 275.0
+  378.0 268.5
+  381.5 273.0
+  380.0 278.5
+endline
+
+line rock-border -close on
+  370.0 279.5
+  366.0 271.5
+  373.5 269.0
+  375.5 275.0
+  370.0 279.5
+endline
+
+line overhang -close on
+  409.0 251.0
+  433.5 217.5
+  433.5 217.5 449.0 237.0 447.0 245.0
+  445.0 253.0 434.0 255.0 409.0 251.0
+  smooth off
+endline
+
+point 461.0 232.0 station -name 3@hp
+
+point 626.0 363.0 station -name 4@hp
+
+point 538.0 519.0 station -name 5@hp
+
+point 569.0 603.0 station -name 6@hp
+
+point 541.0 983.0 station -name 7@hp
+
+point 69.0 906.0 station -name 8@hp
+
+line ceiling-step
+  524.5 601.0
+  524.5 601.0 543.0 615.5 569.0 603.0
+  smooth off
+endline
+
+line wall
+  324.0 143.5
+  360.0 174.5 433.5 217.5 433.5 217.5
+  smooth off
+  449.0 230.0 487.34 240.58 510.0 260.0
+  520.5 269.0 523.72 251.16 572.0 301.0
+  603.0 333.0 660.0 308.0 607.0 409.0
+  547.04 523.26 601.0 536.0 569.0 603.0
+  smooth off
+  569.0 603.0 568.0 625.0 584.0 671.0
+  588.95 685.23 579.96 751.82 580.5 761.0
+  582.0 786.5 554.63 798.29 550.0 914.0
+  549.0 939.0 638.0 940.0 661.0 953.0
+  smooth off
+endline
+
+line wall
+  659.0 993.0
+  659.0 993.0 493.0 980.0 475.0 973.0
+  457.0 966.0 377.0 965.0 332.0 977.0
+  293.93 987.15 191.0 937.0 89.0 935.0
+  smooth off
+endline
+
+line wall
+  534.0 534.0
+  534.0 534.0 503.0 531.0 487.5 544.0
+  smooth off
+endline
+
+line wall -reverse on
+  587.5 372.0
+  587.5 372.0 537.0 429.0 484.0 437.5
+  smooth off
+endline
+
+line ceiling-step
+  570.0 931.5
+  570.0 931.5 537.5 931.0 516.5 942.0
+  smooth off
+endline
+
+line ceiling-step
+  516.5 942.0
+  516.5 942.0 511.5 961.0 516.5 979.0
+  smooth off
+endline
+
+line wall
+  393.5 268.0
+  387.5 260.0 409.0 251.0 409.0 251.0
+  smooth off
+  442.5 255.5 472.71 264.5 482.0 265.0
+  506.96 266.35 533.5 327.5 553.5 340.0
+  559.4 343.69 573.0 340.0 595.0 356.0
+  smooth off
+  587.5 372.0
+endline
+
+line ceiling-step
+  586.0 377.0
+  562.5 399.5 552.94 473.95 534.0 534.0
+  smooth off
+endline
+
+line wall
+  534.0 534.0
+  532.0 557.0 525.34 554.26 522.0 585.0
+  517.0 631.0 555.0 640.0 559.0 667.0
+  563.0 694.0 550.0 789.0 535.0 835.0
+  522.46 873.45 543.5 928.5 516.5 942.0
+  496.09 952.2 500.44 899.34 340.0 923.0
+  231.5 939.0 247.0 850.0 183.0 848.0
+  156.09 847.16 147.0 854.0 111.0 871.0
+  smooth off
+  111.0 871.0 81.0 881.0 70.0 876.0
+  smooth off
+endline
+
+line floor-step
+  529.0 924.5
+  529.0 924.5 540.0 894.0 551.5 919.5
+  smooth off
+endline
+
+line contour
+  366.5 970.5
+  275.66 964.36 223.0 944.5 147.5 942.5
+  smooth off
+endline
+
+line rock-border -close on
+  659.5 965.0
+  657.0 958.5
+  664.5 957.0
+  674.0 959.5
+  677.0 965.5
+  664.0 968.0
+  659.5 965.0
+endline
+
+line rock-border -close on
+  659.0 980.0
+  654.5 976.0
+  656.0 970.0
+  664.0 968.0
+  673.0 974.0
+  659.0 980.0
+endline
+
+line rock-border -close on
+  664.5 991.5
+  653.5 985.5
+  659.0 980.0
+  672.0 983.5
+  664.5 991.5
+endline
+
+line contour -reverse on
+  174.0 943.5
+  174.0 943.5 181.0 921.0 180.0 903.5
+  smooth off
+endline
+
+line contour -reverse on
+  321.5 966.0
+  321.5 966.0 330.0 945.0 327.5 928.5
+  smooth off
+endline
+
+line gradient
+  344.0 949.0
+  309.0 944.0
+endline
+
+line contour -reverse on
+  475.0 973.0
+  475.0 973.0 481.0 952.0 477.5 941.0
+  smooth off
+endline
+
+line contour -reverse on
+  560.5 984.5
+  560.5 984.5 570.0 959.0 570.0 931.5
+  smooth off
+endline
+
+line contour -reverse on
+  592.5 987.0
+  592.5 987.0 605.0 964.0 603.5 939.5
+  smooth off
+endline
+
+line contour -reverse on
+  627.0 989.5
+  627.0 989.5 638.0 966.0 636.0 945.5
+  smooth off
+endline
+
+line floor-step
+  523.0 302.5
+  523.0 302.5 528.5 277.0 546.0 277.0
+  smooth off
+endline
+
+line floor-step
+  574.5 344.5
+  574.5 344.5 576.5 320.0 592.5 315.5
+  smooth off
+endline
+
+line floor-step
+  474.0 263.5
+  474.0 263.5 471.0 249.0 485.5 244.0
+  smooth off
+endline
+
+line contour
+  70.0 876.0
+  147.0 905.0 180.0 827.0 257.5 905.0
+  smooth off
+endline
+
+line contour -reverse on
+  510.0 943.0
+  284.0 936.5 130.0 891.0 70.0 876.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  110.0 936.0
+  129.5 935.5 151.5 932.0 150.5 919.0
+  149.31 903.49 104.0 882.0 70.0 876.0
+  smooth off
+endline
+
+line rock-border -close on
+  610.0 360.0
+  595.0 356.0
+  613.0 348.0
+  627.0 353.0
+  626.0 363.0
+  610.0 360.0
+endline
+
+line overhang -close on
+  555.5 516.0
+  555.5 516.0 538.0 441.5 577.5 428.5
+  smooth off
+  577.5 428.5 567.0 368.0 610.0 360.0
+  smooth off
+  610.0 360.0 633.0 400.0 582.0 430.0
+  smooth off
+  582.0 430.0 591.07 472.53 564.0 516.0
+  560.68 521.33 558.5 521.5 555.5 516.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  553.5 490.5
+  553.5 490.5 551.5 537.0 534.0 534.0
+  smooth off
+endline
+
+line floor-step
+  574.5 496.5
+  574.5 496.5 563.0 524.5 579.0 541.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  544.5 529.0
+  544.5 529.0 556.5 543.0 571.5 530.0
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap vchod_03.s -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 69.0 906.0 station -name 8@hp
+
+point 225.5 1008.5 station -name 9@hp
+
+point 588.0 1107.0 station -name 10@hp
+
+line wall
+  70.0 876.0
+  116.0 890.0
+  172.0 908.0 124.0 922.0 205.0 974.0
+  smooth off
+  307.5 970.5 241.0 1012.0 403.0 1021.0
+  465.52 1024.47 431.0 1002.0 588.0 1107.0
+  594.7 1111.48 582.5 1157.0 578.0 1154.5
+  smooth off
+endline
+
+line wall
+  62.0 925.0
+  89.0 935.5 197.0 1006.0 223.5 1012.0
+  255.79 1019.31 277.5 1035.5 350.0 1049.0
+  smooth off
+  350.0 1049.0 462.0 1070.0 522.0 1101.0
+  smooth off
+  522.0 1101.0 564.28 1122.22 578.0 1154.5
+  smooth off
+endline
+
+line contour
+endline
+
+line gradient
+  138.0 938.0
+  158.0 956.0
+endline
+
+line contour
+  180.0 989.0
+  180.0 989.0 189.0 977.0 198.5 970.0
+  smooth off
+endline
+
+line contour
+  158.0 975.0
+  158.0 975.0 170.0 963.0 181.5 956.5
+  smooth off
+endline
+
+line contour
+  136.0 962.0
+  144.0 957.0 147.0 947.0 164.5 939.0
+  smooth off
+endline
+
+line contour
+  118.0 949.0
+  118.0 949.0 131.0 929.0 146.5 908.0
+  smooth off
+endline
+
+line contour
+  97.0 940.0
+  97.0 940.0 100.0 911.0 115.5 894.5
+  smooth off
+endline
+
+line rock-border -close on
+  491.5 1083.0
+  508.0 1079.5
+  514.5 1072.0
+  499.5 1059.0
+  483.0 1054.0
+  475.5 1070.0
+  491.5 1083.0
+endline
+
+line floor-step
+  515.0 1097.5
+  515.0 1097.5 527.5 1079.0 541.0 1075.0
+  smooth off
+endline
+
+line overhang -close on -reverse on
+  522.0 1101.0
+  522.0 1101.0 565.0 1123.5 578.0 1154.5
+  smooth off
+  578.0 1154.5 591.0 1128.5 588.0 1107.0
+  smooth off
+  588.0 1107.0 555.5 1085.5 522.0 1101.0
+  smooth off
+endline
+
+endscrap
+
+

@@ -1,0 +1,39 @@
+encoding  iso8859-2
+survey sifon_i -title "Vìtrná propast - Sifon I"
+ 
+  input za_sifonem_i.th
+  input za_sifonem_i_2013.th
+  input velky_komin.th
+  
+  input nedelni_chodba.th2
+  input bila_tma.th2  
+ 
+  centerline
+    equate 7@za_sifonem_i 0@velky_komin
+    equate 5@za_sifonem_i 1.1@za_sifonem_i_2013
+  endcenterline
+   
+  join nedelni_chodba_01.s nedelni_chodba_02.s
+  join nedelni_chodba_02.s bila_tma.s
+  
+  map sifon_i_2003.m \
+    -title "Vìtrná propast - Sifon I (2003)"         
+      nedelni_chodba_01.s
+      nedelni_chodba_02.s
+      bila_tma.s   
+  endmap
+  
+  map sifon_i_2003_polygon.m \
+    -title "Vìtrná propast - Sifon I (2003)" -projection plan
+      za_sifonem_i_2013        
+      velky_komin   
+  endmap
+  
+  map sifon_i.m \
+    -title "Vìtrná propast - Sifon I"    
+      sifon_i_2003.m
+      sifon_i_2003_polygon.m   
+  endmap
+   
+ endsurvey
+

@@ -1,0 +1,50 @@
+encoding  iso8859-2
+survey sifon_iii -title "Vìtrná propast - Sifon III"
+ 
+  input k_sifonu_iii.th
+  input za_sifonem_iii.th
+  input svestkovy_komin.th
+  
+  input k_sifonu_iii.th2
+  input od_sifonu_po_komin.th2
+  input krizovy_komin_svestkova_propast.th2
+   
+  centerline
+    equate 6@k_sifonu_iii 0@za_sifonem_iii
+    equate 22@za_sifonem_iii 0@svestkovy_komin
+  endcenterline
+  
+  join od_sifonu_po_komin_01.s od_sifonu_po_komin_01.s
+  
+  map sifon_iii_2000.m \
+    -title "Vìtrná propast - Sifon III (2000)"         
+      k_sifonu_iii_01.s
+      break
+      k_sifonu_iii_02.s    
+  endmap
+  
+  map sifon_iii_2008_polygon.m \
+    -title "Vìtrná propast - Sifon III (2007-2008) - polygon" \
+    -projection plan        
+      #za_sifonem_iii
+      #break
+      svestkovy_komin   
+  endmap
+  
+  map sifon_iii_2008.m \
+    -title "Vìtrná propast - Sifon III (2007-2008)"
+      krizovy_komin.s
+      break        
+      od_sifonu_po_komin_01.s
+      od_sifonu_po_komin_02.s
+  endmap
+  
+  map sifon_iii.m \
+    -title "Vìtrná propast - Sifon III"    
+      sifon_iii_2000.m
+      sifon_iii_2008.m
+      sifon_iii_2008_polygon.m   
+  endmap
+ 
+endsurvey
+

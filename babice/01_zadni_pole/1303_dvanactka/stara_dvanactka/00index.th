@@ -1,0 +1,84 @@
+encoding  iso8859-2
+survey stara_dvanactka -title "Závrt è. 12 Zadní pole - stará èást (pøemìøení 2009-2011)"
+ 
+  input 20090809_1.th
+  input 20090809_2.th
+  input 20101120.th
+  input 20110115.th
+  
+  input vstupni_casti.th2
+  input odbocka_do_kurarny.th2
+  input k_propasti_ii.th2
+  input za_propasti_ii.th2
+  
+  centerline
+    equate 1.10@20090809_1 1.10@20090809_2
+    equate 1.50@20090809_2 1.50@20101120
+    equate 2.26@20101120 2.26@20110115
+    equate 2.26@20110115 2.93@20110115
+    equate 2.60@20110115 2.79@20110115   
+  endcenterline
+  
+  join pod_vstupem_2.s odbocka_1.s -smooth on
+  join propast_I_1.s ke_kurarne.s -smooth on
+  join ke_kurarne.s zbytek_kurarny.s -smooth on
+  join zbytek_kurarny.s stredni_patro_3.s -smooth on
+  join stredni_patro_01.s stredni_patro_2.s -smooth on
+  join stredni_patro_01.s stredni_patro_6.s -smooth on
+ 
+  map stara_dvanactka_polygon.m -title "Závrt è. 12 Zadní pole - polygon" -projection plan         
+    20090809_1
+    20090809_2
+    20101120
+    20110115
+  endmap
+  
+  map stara_dvanactka_plan.m -title "Závrt è. 12 Zadní pole - plán"
+    skruz.s
+    break
+    vstup.s
+    break
+    pod_vstupem_1.s
+    break
+    pod_vstupem_2.s
+    odbocka_1_2.s
+    break
+    odbocka_1.s
+    break
+    
+    stredni_patro_4.s
+    stredni_patro_5.s
+    break
+    
+    stredni_patro_3.s    
+    
+    zbytek_kurarny.s      
+    ke_kurarne.s
+    break
+    ke_kurarne_2.s    
+    break
+    
+    stredni_patro_2.s
+    break
+    stredni_patro_6.s
+    stredni_patro_01.s
+    break
+    
+    propast_I_1.s
+    break
+    propast_I_2.s
+    break
+    propast_I_3.s
+    break  
+    
+    propast_ii.s
+  endmap
+  
+  map stara_dvanactka.m -title "Závrt è. 12 Zadní pole - stará èást (pøemìøení 2009-2011)"
+    #stara_dvanactka_polygon.m
+    #break
+    stara_dvanactka_plan.m
+  endmap
+     
+endsurvey
+

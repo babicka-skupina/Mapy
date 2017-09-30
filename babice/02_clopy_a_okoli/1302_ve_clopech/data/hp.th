@@ -1,0 +1,30 @@
+encoding  iso8859-2
+survey hp -title "Hlavní polygon"
+  
+  centerline
+    explo-date 1964-1984
+    explo-team "Speleologický /krou¾ek I.BZKG Brno"
+    explo-team "ZO /ÈSS 6-28 Babická speleologická skupina"
+    
+    team "Hugo Havel"
+    team "Jaromír ©eda"
+    team "Miloslav Sedláèek"
+    team "Chábek"
+    date 1985.04.26
+    
+    data normal from to length compass clino
+    
+       0    1   4.9  165   -68  
+       1    2   1.7  272   -42  
+       2    3   4.63 186   -36  
+       3    4   1.82 157   -47  
+       4    5   2.53 207   -38  
+       5    6   4.46 166   -22  
+       6    7   2.24 250   -25  
+       7    8   1.37 264   -78  
+       8    9   3.2  256   -34  
+          
+  endcenterline
+      
+endsurvey
+

@@ -1,0 +1,22 @@
+encoding  utf-8
+source 1302.th
+select m_1302@1302
+
+input ../../../layouts
+
+layout l_plan
+  copy l_default
+  map-comment "Digitalizace: Ladislav Blažek 2008"
+  map-header 0 100 ne
+  doc-author "ZO ČSS 6-28 Babická speleologická skupina"
+  doc-keywords "Ve Člopech, Babická plošina, Moravský kras"
+  doc-subject "Plán jeskyně Ve Člopech"
+  doc-title "Ve Člopech"
+endlayout
+
+# Mapa
+export map -projection plan -output _output/1302_plan.pdf -layout l_plan
+
+# 3D
+export model -output _output/1302.lox
+export model -format survex -output _output/1302.3d

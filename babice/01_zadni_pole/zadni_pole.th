@@ -1,0 +1,44 @@
+encoding  utf-8
+survey zadni_pole -title "Závrtová skupina Zadní pole"
+  
+  input povrchova_mereni/povrch1.th
+  input povrchova_mereni/povrch2.th
+  
+  input povrchova_mereni/zadni_pole.th2
+  
+  input 1303_dvanactka/1303.th
+  input 1318_vetrna_propast/1318.th
+  input 1319_devitka/1319.th  
+  
+  centerline
+    # Dvanáctka  
+    equate 1303@povrch1 1303@povrch2 1.0@20090809_1.stara_dvanactka.1303    
+    # Větrná
+    equate 1318@povrch1 1318@povrch2 0@hp.stara_vetrna.1318    
+    # spojka Větrná-Dvanáctka
+    equate 7@hp.stara_vetrna.1318 2.39@20101120.stara_dvanactka.1303    
+    # Devítka
+    equate 1319@povrch1 1319@povrch2 0@hp.1319    
+    # Krvák
+    equate 1320@povrch1 1320@povrch2        
+  endcenterline
+  
+  # spojka Větrná-Dvanáctka
+  join vchod_02.s@stara_vetrna.1318 stredni_patro_01.s@stara_dvanactka.1303
+    
+  map zadni_pole.m -title "Závrtová skupina Zadní pole"
+    zadni_pole_povrch.m
+    break
+    1319.m@1319
+    break
+    1303.m@1303
+    break
+    1318.m@1318   
+  endmap
+  
+  map zadni_pole_povrch.m
+    zp
+  endmap
+
+endsurvey
+

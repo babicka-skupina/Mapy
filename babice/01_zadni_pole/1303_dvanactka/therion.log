@@ -1,0 +1,119 @@
+therion 5.3.6
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 1.91%
+processing survey data ... 
+####################### cavern log file ########################
+
+therion: warning -- can't open cavern log file for input
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.81%
+writing _output/1303_plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.211 (TeX Live 2010/Arch Linux) (kpathsea version 6.0.0) (mem=mpost 2010.12.27)  29 JAN 2011 15:09
+**data.mp
+(./data.mp [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010
+] [4011] [4012]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [59] [60] [61] [62] [63] [64] [65] [66] [67] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1358 strings out of 1638
+ 13945 string characters out of 26823
+ 59113 words of memory out of 3000000
+ 1392 symbolic tokens out of 16384
+ 8i,75n,11p,197b,4f stack positions out of 300i,84n,10000p,200b,15f
+ 102 string compactions (moved 1119269 characters, 97005 strings)
+79 output files written: data.1 .. data.4012
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010/Arch Linux) (format=pdfetex 2010.12.27)  29 JAN 2011 15:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texmf/tex/generic/pdftex/glyphtounicode.tex)) (./th_fontdef.tex{/va
+r/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 171 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 358 strings out of 495424
+ 3711 string characters out of 3165168
+ 48266 words of memory out of 3000000
+ 1829 multiletter control sequences out of 15000+200000
+ 21229 words of font info for 66 fonts, out of 3000000 for 9000
+ 863 hyphenation exceptions out of 8191
+ 12i,5n,8p,528b,96s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist
+/fonts/type1/public/cs/csss10.pfb></usr/share/texmf-dist/fonts/type1/public/cs/
+csssi10.pfb>
+Output written on data.pdf (1 page, 167572 bytes).
+PDF statistics:
+ 315 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 865 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing _output/1303.3d ... done
+writing _output/1303.lox ...................... done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  5.68%    0.5m    8.9m   7   -0.1m   -0.4m    0.3m [2.55@20110115.stara_dvanactka.1303 - 2.78 - 2.79 = 2.60 - 2.59 - 2.58 - 2.57 - 2.56 - 2.55]
+  1.37%    0.2m   11.5m   5   -0.1m    0.1m    0.0m [1.12@20090809_1.stara_dvanactka.1303 - 1.22 - 1.21 - 1.20 - 1.13 - 1.12]
+  1.24%    0.1m    9.8m   4   -0.0m    0.1m    0.0m [1.8@20090809_1.stara_dvanactka.1303 - 1.10 - 1.23 - 1.9 - 1.8]
+  0.81%    0.1m   17.1m  10   -0.1m   -0.1m   -0.0m [2.93@20110115.stara_dvanactka.1303 - 2.92 - 2.89 - 2.88 - 2.87 - 2.86 - 2.49 - 2.35 - 2.34 - 2.33 - 2.26 = 2.93]
+  0.67%    0.1m   12.8m   8    0.1m   -0.0m    0.1m [2.7@20101120.stara_dvanactka.1303 - 2.23 - 2.19 - 2.16 - 2.15 - 2.10 - 2.9 - 2.8 - 2.7]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   1.83%  100.00%  stredni_patro_3.s@stara_dvanactka.1303
+   0.44%   25.40%  stredni_patro_1.s@stara_dvanactka.1303
+   0.44%   19.59%  stredni_patro_2.s@stara_dvanactka.1303
+   1.14%   16.80%  stredni_patro_6.s@stara_dvanactka.1303
+   3.04%   15.43%  zbytek_kurarny.s@stara_dvanactka.1303
+   0.08%   11.64%  ke_kurarne.s@stara_dvanactka.1303
+   1.53%   11.00%  propast_I_1.s@stara_dvanactka.1303
+   1.17%    7.59%  vstup.s@stara_dvanactka.1303
+   1.63%    6.73%  pod_vstupem_2.s@stara_dvanactka.1303
+   0.31%    1.37%  odbocka_1.s@stara_dvanactka.1303
+   0.33%    0.92%  odbocka_1_2.s@stara_dvanactka.1303
+   0.01%    0.32%  stredni_patro_5.s@stara_dvanactka.1303
+   0.04%    0.21%  pod_vstupem_1.s@stara_dvanactka.1303
+   0.02%    0.16%  propast_ii.s@stara_dvanactka.1303
+   0.01%    0.12%  stredni_patro_4.s@stara_dvanactka.1303
+   0.00%    0.01%  ke_kurarne_2.s@stara_dvanactka.1303
+   0.00%    0.00%  skruz.s@stara_dvanactka.1303
+   0.00%    0.00%  propast_I_2.s@stara_dvanactka.1303
+   0.00%    0.00%  propast_I_3.s@stara_dvanactka.1303
+################### end of scrap distortions ###################

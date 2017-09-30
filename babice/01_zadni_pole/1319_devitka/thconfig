@@ -1,0 +1,32 @@
+encoding  utf-8
+source 1319.th
+select m_1319@1319
+select m_1319_rez@1319
+
+input ../../../layouts
+
+layout l_plan
+  copy l_default
+  map-header 100 100 nw
+  doc-author "ZO ČSS 6-28 Babická speleologická skupina"
+  doc-keywords "Závrt č. 9 Zadní pole, Zadní pole, Babická plošina, Moravský kras"
+  doc-subject "Plán jeskyně Závrt č. 9 Zadní pole"
+  doc-title "Závrt č. 9 Zadní pole"
+endlayout
+
+layout l_rez
+  copy l_default
+  map-header 0 0 sw
+  map-comment "Idealizovaný rozvinutý řez"
+  doc-author "ZO ČSS 6-28 Babická speleologická skupina"
+  doc-keywords "Závrt č. 9 Zadní pole, Zadní pole, Babická plošina, Moravský kras"
+  doc-subject "Plán jeskyně Závrt č. 9 Zadní pole"
+  doc-title "Závrt č. 9 Zadní pole"
+endlayout
+
+# Mapa
+export map -projection extended -output _output/1319_rez.pdf -layout l_rez
+export map -output _output/1319_plan.pdf -layout l_plan
+# 3D
+export model -format survex -output _output/1319.3d
+export model -output _output/1319.lox

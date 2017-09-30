@@ -1,0 +1,26 @@
+encoding  utf-8
+survey hp \
+    -title "Hlavní polygon"
+
+  centerline
+    explo-team "ZO/ČSS 6-28 Babická speleologická skupina"
+    team "Petr Vodák"
+    team "Ladislav Blažek"
+    team "Viktor Čížek"
+    team "Miloslav Sedláček"
+    date 2000
+    data normal from to length compass clino
+       
+       0     1    3.27     0     -90  
+       1     2    3.19   137     -46
+       2     3    3.25    63     -26  
+       3     4    4.64   188     -14  
+       4     5    1.74    90      24.5
+       5     6    3.17   104     -76  
+       6     7    2.2     38     -77  
+       7     8    4.25    67     -65  
+       8     9    3.38    75     -63  
+   
+  endcenterline
+endsurvey
+

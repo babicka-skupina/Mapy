@@ -1,0 +1,30 @@
+encoding  utf-8
+survey povrch2 \
+  -title "Povrchové měření 2"
+
+  centerline
+    team "Ladislav Blažek"
+    team "Petr Vodák"
+    date 2006
+    data normal from to compass clino length
+
+    flags surface
+        
+       0    1 195      0    16.9 # 0 - ZB, zelezna tyc
+       1    2 103      0    13.5
+       2    3 101      0    10.4
+       3 1303   8    -24     6.2
+       1 1318 150    -49     2.1
+       1    4 200      0    11   # Delka neni skutecna! Vodouch zapomel napsat.
+       4    5   0     90     1  
+       5    6 265      0    21.4
+       6    7 207      0    23.3
+       7    8   6    -13     7.6
+       7 1320 285    -15     6.1
+       7    9 192      0    24.8
+       9 1319 234     -8.5  13.4
+       
+  endcenterline
+
+endsurvey
+

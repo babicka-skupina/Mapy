@@ -1,0 +1,115 @@
+therion 5.3.11
+initialization file: /etc/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 2.15%
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 1.98%
+writing _output/1318_plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.504 (kpathsea version 6.1.0)  20 JAN 2013 09:54
+**data.mp
+(mpost.mp (/usr/local/texlive/2012/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.004)) (./data.mp [4001] [4002] [4003]
+[4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [4012]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [63] [64] [65] [66] [67] [68]
+[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] )
+ 
+Here is how much of MetaPost's memory you used:
+ 10332 strings using 215652 characters
+ 1353552 bytes of node memory
+ 1465 symbolic tokens
+ 9i,75n,11p,202b,4f stack positions out of 16i,84n,12p,250b,6f
+94 output files written: data.1 .. data.4012
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdfetex 2012.6.30)  20 JAN 2013 09:54
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2012/texmf/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 187 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 374 strings out of 495044
+ 3864 string characters out of 3155949
+ 47168 words of memory out of 3000000
+ 1862 multiletter control sequences out of 15000+200000
+ 21229 words of font info for 66 fonts, out of 3000000 for 9000
+ 1232 hyphenation exceptions out of 8191
+ 12i,5n,8p,423b,98s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 195827 bytes).
+PDF statistics:
+ 350 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 971 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing _output/1318.3d ... done
+writing _output/1318.plt ... done
+writing _output/1318.lox ...................... done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  2.15%    0.8m   38.6m  12   -0.5m   -0.6m    0.2m [1@mnp_pica.stara_vetrna.1318 - 2 = 1@mnp_tobogan.stara_vetrna.1318 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 = 14@hp.stara_vetrna.1318 - 13 - 12 - 11 = 1@mnp_pica.stara_vetrna.1318]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   4.16%   53.11%  zeleza_zvon_01.s@stara_vetrna.1318
+   7.30%   51.15%  bila_tma.s@sifon_i.1318
+   0.65%   49.48%  zeleza_zvon_02.s@stara_vetrna.1318
+   1.38%   45.65%  nedelni_chodba_02.s@sifon_i.1318
+   1.54%   20.40%  mnp_01.s@stara_vetrna.1318
+   1.25%   14.94%  sintropad_02.s@stara_vetrna.1318
+   1.15%   14.07%  k_sifonu_iii_01.s@sifon_iii.1318
+   1.17%    9.15%  sintropad_01.s@stara_vetrna.1318
+   0.32%    7.92%  nedelni_chodba_01.s@sifon_i.1318
+   0.48%    6.61%  vchod_02.s@stara_vetrna.1318
+   1.40%    6.10%  mnp_02.s@stara_vetrna.1318
+   0.91%    5.12%  od_sifonu_po_komin_02.s@sifon_iii.1318
+   0.43%    4.44%  krizovy_komin.s@sifon_iii.1318
+   0.32%    3.60%  zeleza_zvon_03.s@stara_vetrna.1318
+   0.47%    1.53%  od_sifonu_po_komin_01.s@sifon_iii.1318
+   0.20%    0.81%  vchod_03.s@stara_vetrna.1318
+   0.16%    0.65%  k_sifonu_iii_02.s@sifon_iii.1318
+   0.00%    0.00%  mnp_03.s@stara_vetrna.1318
+   0.00%    0.00%  vchod_01.s@stara_vetrna.1318
+################### end of scrap distortions ###################
+therion: warning -- error deleting temporary directory -- /tmp/th31368

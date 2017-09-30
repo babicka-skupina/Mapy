@@ -1,0 +1,42 @@
+encoding  utf-8
+source 1318.th
+select 1318.m@1318
+#select stara_vetrna.m@stara_vetrna.1318
+#select sifon_i.m@sifon_i.1318   
+#select sifon_iii.m@sifon_iii.1318
+
+input ../../../layouts
+
+layout l_plan
+  copy l_default
+  map-header 100 0 se
+  legend-columns 3
+  legend-width 30 cm
+  doc-author "ZO ČSS 6-28 Babická speleologická skupina"
+  doc-keywords "Větrná propast, Zadní pole, Babická plošina, Moravský kras"
+  doc-subject "Plán jeskyně Větrná propast"
+  doc-title "Větrná propast"  
+  symbol-hide point label
+endlayout
+
+# Mapa
+export map -projection plan -output _output/1318_plan.pdf -layout l_plan
+# Mapa obarvená dle hloubky
+#export map -projection plan -output _output/1318_plan_alt.pdf -layout l_plan -layout-color map-fg altitude
+# Mapa obarvena dle částí
+#export map -projection plan -output _output/1318_plan_map.pdf -layout l_plan -layout-color map-fg map
+
+# Řez
+#export map -projection extended -output _output/1318_rez.pdf -layout l_rez
+
+# Atlas
+#export atlas -projection plan -output output/1318_atlas.pdf -layout l_atlas
+
+# 3D
+export model -format survex -output _output/1318.3d
+export model -format compass -output _output/1318.plt
+export model -output _output/1318.lox
+
+# XVI
+#export map -projection plan -format xvi -output output/1318_plan.xvi -layout l_xvi
+#export map -projection extended -format xvi -output output/1318_rez.xvi -layout l_xvi

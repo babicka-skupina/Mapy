@@ -1,0 +1,272 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 427 1092 1328
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {0 1 1.0} {1200 {}} k_sifonu_iii.gif 0 {}
+
+
+
+scrap k_sifonu_iii_01.s -projection plan -scale [-128 427 1092 427 0.0 0.0 30.988 0.0 m]
+
+point 354.5 777.5 station -name 4@k_sifonu_iii
+
+point 339.5 693.5 station -name 3@k_sifonu_iii
+
+point 55.5 717.5 station -name 1@k_sifonu_iii
+
+point 286.5 713.0 station -name 2@k_sifonu_iii
+
+line wall
+  139.0 724.5
+  139.0 724.5 170.0 723.5 210.0 721.5
+  250.0 719.5 263.0 717.5 263.0 717.5
+  smooth off
+  263.0 717.5 269.0 714.5 280.0 713.5
+  291.0 712.5 314.0 713.5 314.0 713.5
+  smooth off
+  331.5 722.5 321.0 725.5 330.0 739.5
+  336.29 749.28 344.0 740.5 354.5 777.5
+  355.33 780.43 382.0 772.5 421.0 770.5
+  smooth off
+endline
+
+line wall
+  136.0 709.5
+  136.0 709.5 269.0 711.5 292.0 706.5
+  308.7 702.87 297.5 696.0 308.5 683.0
+  314.44 675.98 325.0 681.5 325.0 660.5
+  smooth off
+endline
+
+line wall
+  330.0 658.5
+  351.0 697.5 376.0 715.5 376.0 715.5
+  smooth off
+  376.0 749.5 388.0 757.5 388.0 757.5
+  smooth off
+  401.0 762.5 422.0 766.5 422.0 766.5
+  smooth off
+endline
+
+line contour
+  330.0 658.5
+  330.0 658.5 339.5 673.5 339.5 693.5
+  smooth off
+  339.5 693.5 349.5 691.5 376.0 715.5
+  smooth off
+endline
+
+line floor-step
+  342.5 745.5
+  342.5 745.5 346.5 726.5 371.5 728.5
+  smooth off
+endline
+
+line floor-step
+  336.5 739.5
+  336.5 739.5 339.5 710.5 371.5 717.5
+  smooth off
+endline
+
+line floor-step
+  330.5 732.5
+  330.5 732.5 330.5 700.5 365.5 708.5
+  smooth off
+endline
+
+line rock-border -close on
+  402.5 770.5
+  398.5 766.5
+  406.5 764.5
+  411.5 768.5
+  402.5 770.5
+endline
+
+line rock-border -close on
+  365.5 751.5
+  363.5 738.5
+  370.5 737.5
+  376.5 747.5
+  374.5 751.5
+  365.5 751.5
+endline
+
+line rock-border -close on
+  357.5 757.5
+  352.5 753.5
+  355.5 746.5
+  361.5 750.5
+  357.5 757.5
+endline
+
+line rock-border -close on
+  389.5 773.5
+  382.5 770.5
+  385.5 761.5
+  396.5 761.5
+  396.5 769.5
+  389.5 773.5
+endline
+
+line rock-border -close on
+  373.5 774.5
+  351.5 766.5
+  351.5 758.5
+  382.5 751.5
+  385.5 761.5
+  373.5 774.5
+endline
+
+line rock-border -close on
+  327.5 693.5
+  326.5 687.5
+  332.5 684.5
+  336.5 690.5
+  327.5 693.5
+endline
+
+line rock-border -close on
+  320.5 705.5
+  324.5 695.5
+  321.0 689.5
+  317.5 694.5
+  320.5 705.5
+endline
+
+line rock-border -close on
+  321.0 689.5
+  327.0 683.5
+  321.0 678.5
+  313.0 682.5
+  312.0 688.5
+  321.0 689.5
+endline
+
+line rock-border -close on
+  331.5 720.5
+  324.5 719.5
+  319.5 711.5
+  329.5 696.5
+  339.5 693.5
+  341.5 704.5
+  331.5 720.5
+endline
+
+endscrap
+
+
+
+scrap k_sifonu_iii_02.s -projection plan -author 2004-2008 "Ladislav Blažek" -scale [-128 427 1092 427 0.0 0.0 30.988 0.0 m]
+
+point 569.5 794.0 station -name 7@k_sifonu_iii
+
+point 481.5 809.0 station -name 6@k_sifonu_iii
+
+point 389.5 754.0 station -name 5@k_sifonu_iii
+
+line rock-border -close on
+  527.5 807.0
+  528.5 801.0
+  538.5 801.0
+  527.5 807.0
+endline
+
+line rock-border -close on
+  526.5 789.0
+  527.5 782.0
+  534.5 783.0
+  535.5 788.0
+  526.5 789.0
+endline
+
+line rock-border -close on
+  514.5 804.0
+  510.5 796.0
+  518.5 788.0
+  535.5 791.0
+  534.5 799.0
+  514.5 804.0
+endline
+
+line wall
+  394.5 777.0
+  394.5 777.0 425.0 784.5 436.5 799.0
+  smooth off
+  436.5 799.0 452.15 799.85 477.5 808.0
+  smooth off
+endline
+
+line border -id p7_sedimenty -close on
+  523.0 815.5
+  522.0 767.5
+  443.0 760.0
+  397.0 747.0
+  346.5 763.5
+  355.0 781.5
+  456.0 816.0
+  523.0 815.5
+endline
+
+line border -id p7_sifon3 -close on
+  552.5 805.0
+  552.5 805.0 538.5 803.0 537.5 798.0
+  536.5 793.0 531.5 789.0 549.5 774.0
+  567.5 759.0 601.5 767.0 601.5 767.0
+  smooth off
+  601.5 767.0 615.5 773.0 612.5 795.0
+  609.5 817.0 552.5 805.0 552.5 805.0
+  smooth off
+endline
+
+area sand
+  p7_sedimenty
+endarea
+
+area water
+  p7_sifon3
+endarea
+
+line slope
+  439.0 768.5
+  orientation 301.2
+  l-size 7.4
+  452.0 775.0 487.5 780.5 487.5 780.5
+  orientation 2.9
+  smooth off
+  l-size 8.0
+endline
+
+line wall
+  343.5 777.0
+  343.5 777.0 350.5 779.0 394.5 777.0
+  smooth off
+endline
+
+line ceiling-step
+  394.5 777.0
+  438.5 775.0 477.5 808.0 477.5 808.0
+  smooth off
+endline
+
+line wall
+  477.5 808.0
+  477.5 808.0 507.54 814.27 543.5 804.0
+  smooth off
+  543.5 804.0 560.17 797.23 571.5 795.0
+  602.0 789.0 603.5 792.0 623.5 780.0
+  628.12 777.23 615.51 780.01 610.5 774.0
+  608.0 771.0 586.5 778.0 550.5 779.0
+  514.5 780.0 497.5 784.0 497.5 784.0
+  smooth off
+  497.5 784.0 471.5 774.0 456.5 766.0
+  450.13 762.6 432.96 775.15 396.5 756.0
+  376.6 745.55 339.0 769.5 339.5 776.0
+  smooth off
+endline
+
+point 319.0 792.5 label -text "Sifon II"
+
+point 557.0 751.0 label -text "Sifon III"
+
+endscrap
+
+

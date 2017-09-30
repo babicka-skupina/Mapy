@@ -1,0 +1,11 @@
+encoding  utf-8
+survey 1303 -title "1303 Závrt č. 12 Zadní pole"
+  
+  input stara_dvanactka/00index.th
+  
+  map 1303.m -title "Závrt č. 12 Zadní pole"
+    stara_dvanactka.m@stara_dvanactka
+  endmap
+
+endsurvey
+

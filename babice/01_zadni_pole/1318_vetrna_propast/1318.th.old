@@ -1,0 +1,112 @@
+encoding  utf-8
+survey 1318 \
+  -title "1318 Větrná propast" \
+  -person-rename "Lenka Součková" "Lenka Blažková"
+  
+  # Stará Větrná
+  input data/hp
+  input data/mn_01
+  input data/mn_02
+  input data/mn_03
+  input data/vn_01
+  
+  input data/pudorys_01.th2
+  input data/pudorys_02.th2
+  input data/pudorys_03.th2
+  input data/pudorys_04.th2
+  input data/pudorys_05.th2
+  input data/pudorys_06.th2
+  input data/pudorys_07.th2
+  
+  # Větev za SI
+  input data/sifon1
+  input data/komin
+  
+  input data/sifon1_01.th2
+  
+  # Větev za SIII
+  input data/sifon3_01
+  input data/sifon3_02  
+  
+  centerline
+    equate 1@mn_01 11@hp
+    equate 1@mn_02 11@hp
+    equate 1@mn_03 2@mn_01
+    equate 9@mn_03 14@hp
+    equate 1@vn_01 20@hp
+    
+    equate 0@sifon1 27@hp
+    equate 0@komin 7@sifon1
+    
+    equate 0@sifon3_01 27@hp
+    equate 6@sifon3_01 0@sifon3_02
+  endcenterline
+  
+  join p2_1 p2_2
+  join p2_1 p3_1 -count 2
+  join p3_1 p3_2
+  join p3_2 p3_3
+  join p4_1 p4_2
+  join p4_2 p7_1
+  join p4_2 p5_1
+  join p5_1 p5_2
+  join p5_2 p6_1
+  
+  map m_stara_vetrna -title "Větrná propast - stará část"
+    
+    p1_1
+    break
+    p1_2
+    break
+    p1_3
+    break
+    p2_2
+    break
+    p2_1
+    p2_3
+    p3_1
+    p3_2
+    break
+    p3_3
+    break
+    p4_1
+    p4_2
+    
+  endmap
+  
+  map m_vetev_s1 -title "Větrná propast - Sifon I"
+    
+    p5_1
+    p5_2
+    p6_1
+        
+  endmap
+  
+  map m_vetev_s3 -title "Větrná propast - Sifon III"
+      
+    p7_1
+    break
+    p7_2
+    
+  endmap
+  
+  map m_polygon -title "Větrná propast - jen polygon" \
+      -projection plan
+    
+    vn_01
+    komin
+    sifon3_02
+    
+  endmap
+  
+  map m_1318 -title "Větrná propast"
+    
+    m_stara_vetrna
+    m_vetev_s1
+    m_vetev_s3
+    m_polygon
+    
+  endmap
+
+endsurvey
+

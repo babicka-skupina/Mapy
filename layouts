@@ -1,0 +1,131 @@
+encoding  utf-8
+
+layout l_default
+
+  scale 1 100
+  transparency on
+  opacity 70
+  layers on
+  language cz  
+  legend on
+  symbol-set UIS
+  #map-comment "Generováno programem Therion (http://therion.speleo.sk)"
+  
+  code tex-map
+
+    \legendtextsize={\size[20]}
+    \legendtextheadersize={\size[36]}
+    \legendtextsectionsize={\size[28]}
+
+    \legendcontent={%
+      \hsize=\legendwidth 
+      \color[0 0 0]\the\legendtextcolor 
+      \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi 
+      \edef\tmp{\the\cavename} \ifx\tmp\empty \else 
+        {\the\legendtextheadersize\the\cavename}\vskip1cm 
+      \fi 
+      \ifscalebar\scalebar\vskip1cm\fi 
+      {\rightskip=0pt plus 3em\parskip=3bp 
+        \edef\tmp{\the\comment} \ifx\tmp\empty \else 
+          {\the\legendtextsize\the\comment} \par\medskip 
+        \fi 
+        \everypar{\hangindent=2em\hangafter=1} 
+        \edef\tmp{\the\cavelength} \ifx\tmp\empty \else 
+          {\the\legendtextsize\si\the\cavelengthtitle: \ss\the\cavelength\par} 
+        \fi 
+        \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else 
+          {\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par} 
+        \fi 
+        \edef\tmp{\the\exploteam} \ifx\tmp\empty \else 
+          {\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par} 
+        \fi 
+        \edef\tmp{\the\topoteam} \ifx\tmp\empty \else 
+          {\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par} 
+        \fi \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else 
+          {\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par} 
+        \fi \edef\tmp{\the\copyrights} \ifx\tmp\empty \else 
+          {\the\legendtextsize\ss\the\copyrights\par} 
+        \fi 
+      } 
+      %% tu to je, prestav tu \size[20] na to co potrebujes 
+      {\size[20]\formattedlegend 
+      } 
+      \color[0 0 0] 
+    }
+
+  endcode
+
+  code metapost
+  
+    def p_station_temporary_MY (expr pos) =
+      T:=identity shifted pos;
+      pickup PenC;
+      thclean fullcircle scaled 0.15u;
+      thdraw fullcircle scaled 0.15u withcolor (1,0,0);      
+    enddef;
+    initsymbol("p_station_temporary_MY");
+    
+    def a_water_MY (expr p) =
+      T:=identity;
+      thfill p withcolor (0,0,1);
+    enddef;
+    initsymbol("a_water_MY");
+
+    def s_scalebar_MY (expr l, units, txt) = 
+      begingroup
+        interim warningcheck:=0;
+        tmpl:=l / Scale * cm * units / 2;
+      endgroup;
+      pickup PenC;
+      draw (-tmpl,0)--(tmpl,0);
+      draw (-tmpl,0)--(-tmpl,2bp);
+      draw (tmpl,0)--(tmpl,2bp);
+      draw (0,0)--(0,2bp);
+      begingroup
+        interim labeloffset:=5bp;
+        label.top(thTEX(decimal (0)),(-tmpl,0));
+        label.top(thTEX(decimal (l/2)),origin);
+        label.top(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,0));
+      endgroup
+    enddef; 
+    initsymbol("s_scalebar_MY");
+
+    fonts_setup(12,16,20,24,28);
+    
+  endcode
+  
+  color map-bg 90
+  symbol-assign area water MY
+  symbol-assign line survey SKBB
+  symbol-assign point station:temporary MY
+  symbol-assign special scale-bar MY
+
+endlayout
+
+layout l_basic
+
+  scale 1 100
+  transparency on
+  opacity 70
+  layers on
+  language cz  
+  legend on
+  symbol-set UIS
+  #map-comment "Generováno programem Therion (http://therion.speleo.sk)"
+  color map-bg 90
+
+endlayout
+
+layout l_esri
+
+  scale 1 100
+
+endlayout
+
+layout l_default_xvi
+
+  scale 1 50
+  grid-size 0.5 0.5 0.5 m
+
+endlayout
+

@@ -1,0 +1,23 @@
+encoding  utf-8
+survey 1319 -title "1319 Devítka"
+  
+  input data/hp
+  input data/odb_01
+  
+  input data/1319_01.th2
+
+  centerline
+    equate 1@odb_01 4@hp
+  endcenterline
+   
+  map 1319.m -title "1319 Závrt č. 9 Zadní pole"
+    p1_1
+    p1_2
+  endmap
+  
+  map 1319_rez.m -title "1319 Závrt č. 9 Zadní pole"
+    r1_1
+  endmap
+     
+endsurvey
+

@@ -1,0 +1,11 @@
+encoding  utf-8
+survey 1303_1974 -title "1303 Závrt č. 12 Zadní pole - stará mapa"
+  
+  input stara_dvanactka_1974/00index.th
+     
+  map 1303_1974.m -title "Závrt č. 12 Zadní pole - stará mapa"
+    stara_dvanactka_1974.m@stara_dvanactka_1974
+  endmap
+
+endsurvey
+

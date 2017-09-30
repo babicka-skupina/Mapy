@@ -1,0 +1,20 @@
+encoding  utf-8
+survey odb_01 \
+    -title "Odbočka před vstupem do propasti"
+  
+  centerline
+    explo-team "ZO/ČSS 6-28 Babická speleologická skupina"
+    team "Petr Vodák"
+    team "Ladislav Blažek"
+    team "Viktor Čížek"
+    team "Miloslav Sedláček"
+    date 2000
+    data normal from to length compass clino
+          
+       1     2    2.04   241      70  
+       2     3    0.95   162      12  
+       3     4    2.44     0      90  
+      
+  endcenterline
+endsurvey
+

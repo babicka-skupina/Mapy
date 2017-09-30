@@ -1,0 +1,24 @@
+encoding  utf-8
+survey 1318 -title "1318 Větrná propast" \
+  -person-rename "Lenka Součková" "Lenka Blažková"
+  
+  input stara_vetrna/00index.th
+  input sifon_i/00index.th
+  input sifon_iii/00index.th
+  
+  centerline
+    equate 27@hp.stara_vetrna 0@za_sifonem_i.sifon_i
+    equate 27@hp.stara_vetrna 0@k_sifonu_iii.sifon_iii
+  endcenterline
+  
+  join sintropad_02.s@stara_vetrna nedelni_chodba_01.s@sifon_i
+  join sintropad_02.s@stara_vetrna k_sifonu_iii_01.s@sifon_iii
+  
+  map 1318.m -title "Větrná propast"
+    stara_vetrna.m@stara_vetrna
+    sifon_i.m@sifon_i   
+    sifon_iii.m@sifon_iii   
+  endmap
+
+endsurvey
+

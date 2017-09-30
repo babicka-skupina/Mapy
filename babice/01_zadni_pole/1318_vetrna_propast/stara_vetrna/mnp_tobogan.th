@@ -1,0 +1,33 @@
+encoding  utf-8
+survey mnp_tobogan \
+  -title "Malá Novohradská prop. - Tobogán"
+
+  centerline
+    explo-team "ZO/ČSS 6-28 Babická speleologická skupina"
+    explo-date 1997
+    
+    team "Ladislav Blažek"
+    team "Zdenek Stloukal"
+    date 1998
+    
+    instrument length "Ocelové pásmo"
+    instrument compass "Závěsný hornický kompas"
+    instrument clino "Závěsný sklonoměr"
+    
+    data normal from to length compass clino
+    
+    extend right
+       1    2   2.6   94   -22  
+    extend left 
+       2    3   4.5  149    39  
+       3    4   1.3  235.5  15  
+       4    5   2.1  175.5  36  
+       5    6   3.7  250   -40  
+       6    7   3    220   -31  
+       7    8   3.2  325   -41  
+       8    9   2.2  230   -51  
+
+  endcenterline
+
+endsurvey
+

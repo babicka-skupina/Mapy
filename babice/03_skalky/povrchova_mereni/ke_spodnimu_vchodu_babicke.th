@@ -1,0 +1,24 @@
+encoding  utf-8
+survey ke_spodnimu_vchodu_babicke -title "Ke spodnímu vchodu Babické jeskyně"
+
+centreline
+
+  date 2010.09.04
+  team "Ladislav Blažek"
+  team "Jaroslav Šanda"
+  instrument length "DistoX"
+  instrument compass "DistoX"
+  instrument clino "DistoX"
+  
+  data normal from to compass clino tape
+  
+  1.10 2.1 296.14 -18.63 17.064
+  2.1 2.2 36.20 -2.96 7.714
+  2.2 2.3 30.29 -2.96 10.714
+  2.3 2.4 32.43 -2.96 18.149
+  2.4 2.5 100.45 -2.96 9.698
+  2.5 2.6 88.89 -2.96 5.279
+  
+endcentreline
+endsurvey
+

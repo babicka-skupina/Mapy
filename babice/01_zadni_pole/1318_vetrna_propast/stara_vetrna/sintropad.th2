@@ -1,0 +1,773 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -61 872 1328
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {0 1 1.0} {1200 {}} sintropad.gif 0 {}
+
+
+
+scrap sintropad_01.s -projection plan -author 2004 "Ladislav Blažek" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 627.0 533.0 station -name 21@hp -name 20@hp
+
+point 530.0 556.0 station -name 22@hp
+
+point 376.0 276.0 station -name 23@hp
+
+point 212.0 552.0 station -name 24@hp
+
+point 412.0 798.0 station -name 26@hp
+
+point 491.0 883.0 station -name 25@hp
+
+line wall -close on -reverse on -outline in
+  343.0 413.0
+  335.0 391.0
+  335.0 391.0 377.0 406.0 397.0 381.0
+  smooth off
+  401.0 411.0
+  401.0 411.0 382.0 416.0 343.0 413.0
+  smooth off
+endline
+
+line gradient
+  544.0 921.0
+  569.0 946.0
+endline
+
+line ceiling-step
+  481.0 905.0
+  481.0 905.0 497.5 884.0 500.0 832.0
+  smooth off
+endline
+
+line rock-border -close on
+  660.0 1014.0
+  656.5 1008.5
+  665.5 1006.0
+  665.5 1012.5
+  660.0 1014.0
+endline
+
+line rock-border -close on
+  633.5 986.5
+  638.5 986.5
+  641.5 981.5
+  637.0 973.5
+  629.0 972.0
+  628.0 980.0
+  633.5 986.5
+endline
+
+line rock-border -close on
+  643.0 985.5
+  648.0 983.5
+  644.5 978.5
+  641.5 981.5
+  643.0 985.5
+endline
+
+line rock-border -close on
+  656.5 997.5
+  659.0 993.5
+  654.5 986.0
+  646.0 987.5
+  647.0 996.0
+  656.5 997.5
+endline
+
+line contour
+  614.5 1024.5
+  614.5 1024.5 619.0 1005.0 639.5 1001.0
+  smooth off
+endline
+
+line contour
+  577.5 985.0
+  582.0 972.0 591.0 964.0 601.5 963.5
+  smooth off
+endline
+
+line contour
+  544.5 948.5
+  544.5 948.5 551.0 930.0 570.5 922.5
+  smooth off
+endline
+
+line contour
+  511.5 913.5
+  511.5 913.5 522.0 891.0 537.0 882.0
+  smooth off
+endline
+
+line rock-border -close on
+  544.0 875.0
+  549.5 873.0
+  548.5 867.5
+  536.5 859.5
+  535.5 869.5
+  544.0 875.0
+endline
+
+line rock-border -close on
+  553.5 897.0
+  553.0 892.5
+  559.5 893.0
+  559.0 900.5
+  553.5 897.0
+endline
+
+line rock-border -close on
+  549.0 890.5
+  557.5 889.5
+  560.0 881.5
+  552.0 875.5
+  543.5 880.0
+  549.0 890.5
+endline
+
+line rock-border -close on
+  577.5 923.0
+  578.5 918.0
+  581.0 912.0
+  587.0 918.5
+  584.5 926.0
+  577.5 923.0
+endline
+
+line rock-border -close on
+  566.5 906.0
+  559.5 893.0
+  563.0 888.5
+  581.0 912.0
+  576.0 914.0
+  566.5 906.0
+endline
+
+line rock-border -close on
+  519.5 944.5
+  521.0 937.5
+  512.5 936.5
+  511.0 941.0
+  519.5 944.5
+endline
+
+line rock-border -close on
+  524.0 957.5
+  534.0 960.5
+  539.0 956.5
+  535.0 949.0
+  525.0 944.0
+  514.0 945.5
+  524.0 957.5
+endline
+
+line rock-border -close on
+  532.5 968.0
+  539.0 968.0
+  539.0 961.5
+  529.5 962.0
+  532.5 968.0
+endline
+
+line rock-border -close on
+  544.0 978.0
+  553.5 977.5
+  555.5 973.5
+  551.0 968.0
+  542.5 966.0
+  539.0 971.0
+  544.0 978.0
+endline
+
+line rock-border -close on
+  551.5 985.5
+  557.0 984.0
+  553.5 977.5
+  547.0 980.5
+  551.5 985.5
+endline
+
+line rock-border -close on
+  669.5 1006.0
+  672.5 999.0
+  662.5 997.0
+  657.0 1001.5
+  669.5 1006.0
+endline
+
+line wall -reverse on
+  677.0 1000.0
+  647.0 984.0 611.05 951.73 603.0 941.0
+  594.0 929.0 538.0 836.0 500.0 832.0
+  483.57 830.27 474.04 779.04 462.0 767.0
+  421.98 726.98 353.0 447.0 353.0 447.0
+  smooth off
+  381.0 480.0 429.0 462.0 429.0 462.0
+  smooth off
+  437.0 483.0 556.5 591.0 592.0 593.0
+  smooth off
+  592.0 593.0 634.12 603.06 695.0 552.5
+  smooth off
+endline
+
+line flowstone -reverse on
+  293.0 274.0
+  319.0 286.0 305.0 318.0 305.0 318.0
+  smooth off
+  305.0 318.0 309.18 354.78 291.0 368.0
+  269.0 384.0 250.0 356.0 250.0 356.0
+  smooth off
+endline
+
+line flowstone -reverse on
+  291.0 381.0
+  290.0 411.0 266.0 426.0 266.0 426.0
+  smooth off
+  266.0 426.0 240.0 450.0 221.0 406.0
+  smooth off
+endline
+
+line flowstone -reverse on
+  262.0 443.0
+  260.0 468.0 246.97 474.97 242.0 480.0
+  219.94 502.33 184.0 470.0 184.0 470.0
+  smooth off
+endline
+
+line contour
+  648.5 547.5
+  624.0 561.0
+  587.0 538.0
+  573.5 542.0
+  462.0 481.0
+  422.5 411.0
+endline
+
+line contour
+  525.5 416.0
+  525.5 416.0 538.44 427.35 582.0 445.5
+  588.0 448.0 619.5 477.5 640.5 498.0
+  648.42 505.73 648.5 547.5 648.5 547.5
+  smooth off
+endline
+
+line contour
+  632.0 500.5
+  632.0 500.5 624.0 526.5 601.0 535.5
+  smooth off
+endline
+
+line contour -reverse on
+  438.5 431.0
+  438.5 431.0 459.0 427.0 464.0 416.0
+  smooth off
+endline
+
+line contour -reverse on
+  462.0 463.0
+  462.0 463.0 487.5 446.0 488.5 428.0
+  smooth off
+endline
+
+line contour -reverse on
+  498.0 492.0
+  498.0 492.0 543.0 475.0 540.5 435.5
+  smooth off
+endline
+
+line gradient
+  590.0 507.0
+  557.0 484.0
+endline
+
+line contour -reverse on
+  548.5 518.5
+  548.5 518.5 589.0 499.5 586.0 462.5
+  smooth off
+endline
+
+line contour -reverse on
+  665.0 527.5
+  655.0 485.5
+  585.5 439.0
+endline
+
+line contour -reverse on
+  683.0 542.0
+  688.0 486.5
+  641.5 451.0
+  540.5 419.5
+endline
+
+line contour
+  630.0 570.0
+  596.5 560.0
+  573.5 557.5
+  482.0 502.0
+endline
+
+line contour
+  665.5 563.0
+  611.5 598.0 566.0 588.0 461.0 492.5
+  smooth off
+endline
+
+line contour -reverse on
+  421.0 368.0
+  426.0 364.5 430.5 362.5 433.0 354.5
+  smooth off
+endline
+
+line contour -reverse on
+  425.0 381.5
+  425.0 381.5 442.5 376.0 443.0 363.0
+  smooth off
+endline
+
+line contour -reverse on
+  430.5 395.5
+  430.5 395.5 448.0 395.5 454.0 383.5
+  smooth off
+endline
+
+line rock-border -close on
+  467.0 394.0
+  479.0 386.0
+  453.5 367.5
+  451.0 374.0
+  467.0 394.0
+endline
+
+line rock-border -close on
+  473.0 415.5
+  466.5 400.0
+  476.0 389.0
+  493.5 394.5
+  499.0 409.5
+  494.0 417.5
+  485.5 413.5
+  473.0 415.5
+endline
+
+line rock-border -close on
+  411.5 416.5
+  417.5 412.5
+  411.5 405.0
+  405.5 408.0
+  411.5 416.5
+endline
+
+line rock-border -close on
+  422.5 411.0
+  404.5 402.5
+  404.0 391.0
+  400.5 381.0
+  409.0 364.5
+  416.5 367.5
+  419.5 378.0
+  426.0 387.5
+  430.0 404.0
+  422.5 411.0
+endline
+
+line rock-border -close on
+  453.5 488.0
+  458.0 480.5
+  450.5 464.5
+  441.0 455.0
+  432.5 466.5
+  453.5 488.0
+endline
+
+line contour -reverse on
+  525.5 416.0
+  427.5 346.0
+endline
+
+line contour
+  412.0 295.0
+  427.5 346.0
+endline
+
+line wall -reverse on
+  695.0 552.5
+  695.0 552.5 736.5 509.5 716.5 476.5
+  684.72 424.07 519.0 424.0 509.0 396.0
+  500.49 372.18 430.11 346.32 412.0 295.0
+  406.0 278.0 389.62 283.43 376.0 276.0
+  365.0 270.0 326.0 213.0 287.0 282.0
+  265.2 320.57 250.0 323.0 250.0 356.0
+  250.0 382.93 221.0 406.0 221.0 406.0
+  smooth off
+  221.0 406.0 205.0 448.0 182.0 462.0
+  smooth off
+  182.0 462.0 189.49 489.03 181.0 506.0
+  179.0 510.0 211.17 544.18 214.0 564.0
+  215.0 571.0 229.0 613.0 253.0 660.0
+  268.68 690.71 286.4 668.36 320.0 728.0
+  360.0 799.0 377.69 755.61 391.0 780.0
+  423.02 838.68 429.0 916.0 481.0 905.0
+  smooth off
+  481.0 905.0 516.86 964.0 557.0 991.0
+  582.33 1008.04 603.0 1034.0 628.0 1058.0
+  smooth off
+endline
+
+line contour -reverse on
+  368.0 458.0
+  368.0 458.0 388.0 444.0 367.0 415.0
+  smooth off
+endline
+
+line contour -reverse on
+  389.0 465.0
+  389.0 465.0 402.0 434.0 379.0 414.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  429.0 462.0
+  429.0 462.0 425.0 421.0 401.0 411.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  305.0 455.0
+  305.0 455.0 298.0 426.0 277.0 426.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  335.0 391.0
+  335.0 391.0 329.0 366.0 302.0 369.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  355.0 394.0
+  398.0 389.0 359.0 276.0 314.0 323.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  397.0 381.0
+  397.0 381.0 438.0 341.0 376.0 276.0
+  smooth off
+endline
+
+line overhang -close on
+  353.0 447.0
+  353.0 447.0 324.0 436.0 343.0 413.0
+  smooth off
+  343.0 413.0 374.0 424.0 353.0 447.0
+  smooth off
+endline
+
+point 597.5 229.5 label -text "Velká Novohradská<br>propast"
+
+point 142.0 384.0 label -text "Sintropád"
+
+line contour
+  301.0 502.0
+  301.0 502.0 338.0 596.0 404.0 688.0
+  smooth off
+endline
+
+line contour
+  331.0 509.0
+  331.0 509.0 346.0 562.0 415.0 700.0
+  smooth off
+endline
+
+line contour
+  356.0 511.0
+  356.0 511.0 394.0 645.0 430.0 720.0
+  smooth off
+endline
+
+line contour
+  349.0 454.0
+  356.0 511.0
+endline
+
+line contour
+  341.0 450.0
+  331.0 509.0
+endline
+
+line contour
+  330.0 441.0
+  301.0 502.0
+endline
+
+line contour
+  335.0 391.0
+  308.0 464.0 294.0 462.0 273.0 498.0
+  smooth off
+  298.0 536.0
+  298.0 536.0 298.0 571.0 365.0 652.0
+  432.0 733.0 455.0 763.0 462.0 767.0
+  smooth off
+endline
+
+line rock-border -close on
+  426.0 766.0
+  414.0 760.0
+  413.0 743.0
+  428.0 732.0
+  438.0 749.0
+  426.0 766.0
+endline
+
+line rock-border -close on
+  412.0 798.0
+  422.0 784.0
+  421.0 773.0
+  410.0 752.0
+  399.0 752.0
+  391.0 780.0
+  412.0 798.0
+endline
+
+line rock-border -close on
+  291.0 555.0
+  303.0 554.0
+  291.0 538.0
+  291.0 555.0
+endline
+
+line rock-edge
+  284.0 518.0
+  270.0 542.0
+  248.0 514.0
+endline
+
+line rock-edge
+  285.0 577.0
+  270.0 542.0
+  250.0 555.0
+endline
+
+line rock-border -close on
+  250.0 555.0
+  248.0 514.0
+  264.0 508.0
+  284.0 518.0
+  291.0 573.0
+  285.0 577.0
+  250.0 555.0
+endline
+
+line floor-step -reverse on
+  250.0 555.0
+  250.0 555.0 215.0 587.0 253.0 660.0
+  smooth off
+endline
+
+line contour -id p4_kameny2 -close on -visibility off
+  401.5 820.0
+  444.0 754.0
+  475.5 777.0
+  537.5 845.5
+  531.5 874.5
+  584.5 934.0
+  597.0 921.0
+  631.0 961.0
+  622.0 983.5
+  661.0 1022.5
+  629.5 1071.0
+  558.5 1000.5
+  564.5 976.0
+  522.0 929.5
+  496.5 941.5
+  415.0 892.5
+  401.5 820.0
+endline
+
+line contour -id p4_kameny1 -close on -visibility off
+  375.0 786.0
+  410.0 722.0
+  304.0 584.0
+  276.0 588.0
+  319.0 750.0
+  375.0 786.0
+endline
+
+area debris
+  p4_kameny1
+endarea
+
+area debris
+  p4_kameny2
+endarea
+
+endscrap
+
+
+
+scrap sintropad_02.s -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 273.0 965.0 station -name 28@hp
+
+point 327.0 980.0 station -name 27@hp
+
+line wall
+  342.0 919.0
+  315.0 937.0
+  315.0 937.0 346.0 973.0 313.0 1000.0
+  246.15 1054.69 239.0 1034.0 222.0 1056.0
+  smooth off
+endline
+
+line wall
+  305.0 880.0
+  293.0 894.0
+  304.0 918.0
+  330.0 904.0
+endline
+
+line rock-border -close on
+  217.0 823.5
+  225.0 822.0
+  224.0 814.0
+  217.0 817.0
+  217.0 823.5
+endline
+
+line rock-border -close on
+  237.5 842.0
+  245.0 839.0
+  238.5 828.0
+  234.0 832.5
+  237.5 842.0
+endline
+
+line rock-border -close on
+  220.0 843.0
+  218.0 828.0
+  225.0 822.0
+  240.0 850.0
+  220.0 843.0
+endline
+
+line rock-border -close on
+  206.5 834.5
+  203.5 826.5
+  211.0 823.0
+  216.0 837.0
+  206.5 834.5
+endline
+
+line wall
+  221.0 807.0
+  275.0 871.0
+  288.0 860.0
+endline
+
+line wall -reverse on
+  162.0 856.0
+  190.0 917.0 101.46 970.05 168.0 1009.0
+  209.0 1033.0 195.0 1030.0 195.0 1030.0
+  smooth off
+endline
+
+line chimney -close on
+  274.0 1028.0
+  238.24 1045.88 122.74 1023.91 159.0 923.0
+  205.0 795.0 276.0 863.0 300.0 907.0
+  324.0 951.0 334.0 998.0 274.0 1028.0
+endline
+
+line rock-border -close on
+  144.0 978.0
+  152.0 941.0
+  168.0 911.0
+  181.0 911.0
+  189.0 925.0
+  195.0 956.0
+  187.0 969.0
+  177.0 970.0
+  172.0 985.0
+  144.0 978.0
+endline
+
+line rock-border -close on
+  201.0 986.0
+  200.0 970.0
+  249.0 961.0
+  254.0 972.0
+  224.0 987.0
+  201.0 986.0
+endline
+
+line rock-border -close on
+  287.0 919.0
+  300.0 907.0
+  276.0 884.0
+  271.0 911.0
+  287.0 919.0
+endline
+
+line rock-border -close on
+  179.0 1001.0
+  166.0 999.0
+  172.0 985.0
+  192.0 978.0
+  191.0 993.0
+  179.0 1001.0
+endline
+
+line rock-border -close on
+  187.0 1018.0
+  178.0 1008.0
+  189.0 1002.0
+  196.0 1013.0
+  187.0 1018.0
+endline
+
+line rock-border -close on
+  213.0 963.0
+  217.0 941.0
+  242.0 949.0
+  230.0 961.0
+  213.0 963.0
+endline
+
+line rock-border -close on
+  249.0 961.0
+  242.0 949.0
+  263.0 942.0
+  286.0 948.0
+  273.0 965.0
+  249.0 961.0
+endline
+
+line rock-border -close on
+  197.0 942.0
+  189.0 925.0
+  210.0 909.0
+  215.0 891.0
+  234.0 881.0
+  264.0 881.0
+  271.0 911.0
+  249.0 937.0
+  197.0 942.0
+endline
+
+line contour -id p4_kameny3 -close on -visibility off
+  272.0 1019.0
+  205.0 1043.0
+  207.0 1005.0
+  224.0 999.0
+  307.0 963.0
+  308.0 995.0
+  272.0 1019.0
+endline
+
+area debris
+  p4_kameny3
+endarea
+
+endscrap
+
+

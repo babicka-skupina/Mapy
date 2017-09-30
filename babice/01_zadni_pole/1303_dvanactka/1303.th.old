@@ -1,0 +1,39 @@
+encoding  utf-8
+survey 1303 \
+  -title "1303 Dvanáctka"
+  
+  input data/hp
+  input data/20070628
+  input data/pudorys_01
+
+  equate 16@hp 0@20070628
+
+  map m_scrapy -title "1303 Dvanáctka" \
+    -projection plan
+    
+    s_p01_01
+    break
+    s_p01_02
+    break
+    s_p01_03
+    break
+    s_p01_04
+    
+  endmap
+  
+  map m_polygon -title "1303 Dvanáctka" \
+    -projection plan
+    
+    20070628
+  endmap
+  
+  map m_1303 -title "1303 Dvanáctka" \
+    -projection plan
+    
+    m_polygon
+    break
+    m_scrapy
+  endmap
+     
+endsurvey
+

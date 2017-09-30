@@ -1,0 +1,20 @@
+encoding  iso8859-2
+survey stara_dvanactka_1974 -title "Závrt è. 12 Zadní pole - Èí¾ek, Hypr, Sedláèek (1974)"
+ 
+  input hp.th
+  
+  input stara_mapa.th2  
+ 
+  map stara_dvanactka_1974.m \
+    -title "Závrt è. 12 Zadní pole (1974)"         
+      stara_mapa_01.s
+      break
+      stara_mapa_02.s
+      break
+      stara_mapa_03.s
+      break
+      stara_mapa_04.s  
+  endmap
+   
+endsurvey
+
