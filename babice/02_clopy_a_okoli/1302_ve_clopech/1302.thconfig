@@ -1,6 +1,6 @@
 encoding  utf-8
 source 1302.th
-select m_1302@1302
+select 1302.m@1302
 
 input ../../../layouts
 
