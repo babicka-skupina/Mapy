@@ -1,0 +1,30 @@
+encoding  utf-8
+survey gps_2022-01-15 \
+  -title "GPS měření - 2022-01-15"
+  
+  centerline
+    team "Ladislav Blažek"
+    team "Martin Suchomel"
+    team "Jana Suchomelová"
+    date 2022-01-15
+  
+    cs long-lat
+    calibrate z 2.134 # pro odečtení monopodu
+    sd x 0.01 m
+    sd y 0.01 m
+    sd z 0.01 m
+
+    fix   1313        16.699533651190475  49.27743216933332   498.482019047619 # Babická - střed skruže
+    fix   neznama     16.69899370485938   49.27772923357811   469.7054140625001 # jeskyne1 - bezejmenná jeskyňka ve skalním ostohu pod Babickou (nalevo ve směru od Babické) 
+    fix   1313_2      16.699469858379306  49.27783630190803   482.872164367816 # Babická-low - zatlučený bod před spodním vchodem 
+    fix   1309        16.699541078212125  49.27826051221213   470.5192848484847 # j1309
+    fix   1308        16.699771185213326  49.27820408304002   485.8201746666666 # Point 10
+    fix   1307        16.699985434487186  49.27893338735897   471.91964871794875 # Kapustova - špička kamene pod vchodem - označeno barvou
+    fix   neznama_2   16.700475598642452  49.27891362602793   495.48655027932955 # jeskyne2 - jeskyňka s ulomený štítek
+    fix   1305        16.699394910921054  49.27948521905262   497.1630960526315 # jeskyně3
+    fix   1306        16.699735224663726  49.27945869063716   489.80945309734517 # jeskyně4    
+    
+  endcenterline
+
+endsurvey
+

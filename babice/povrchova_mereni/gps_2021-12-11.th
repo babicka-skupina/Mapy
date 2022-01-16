@@ -1,0 +1,25 @@
+encoding  utf-8
+survey gps_2021-12-11 \
+  -title "GPS měření - 2021-12-11"
+  
+  centerline
+    team "Martin Suchomel"
+    team "Jana Suchomelová"
+    date 2021-12-11
+  
+    cs long-lat
+    calibrate z 2.134 # pro odečtení monopodu
+    sd x 0.01 m
+    sd y 0.01 m
+    sd z 0.01 m
+
+    fix   1316  16.712859416474057  49.27801387662966   534.0026037037036 # Olejníček - střed skruže
+    fix   1318  16.71901713119355   49.281573283774186  527.2782516129032 # Větrná propast - střed skruže
+    fix   1303  16.719328610264707  49.28156949435295   527.7083441176469 # 12 - střed skruže
+    fix   1319  16.718228062931033  49.281048002482756  526.278372413793 # 9 - střed skruže
+    fix   1320  16.718389141499998  49.28133536752632   527.5842684210527 # Krvák - na hraně směrem k poli
+    
+  endcenterline
+
+endsurvey
+
